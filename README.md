@@ -12,7 +12,6 @@ https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset
 
 1. Logistic Regression
 2. Support Vector Machine
-3. kNN
 
 ## Live Demo of the App
 
