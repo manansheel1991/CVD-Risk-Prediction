@@ -100,7 +100,7 @@ if submit:
     print(test_df)
 
     if algo == 'Logistic Regression':
-        with open('cvd_lr_model.pkl', 'rb') as f:
+        with open('cvd_log_model.pkl', 'rb') as f:
             clf = pickle.load(f)
     elif algo == 'SVM':
         with open('cvd_svc_model.pkl', 'rb') as f:
