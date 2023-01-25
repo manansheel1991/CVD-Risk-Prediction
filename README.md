@@ -13,3 +13,9 @@ https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset
 1. Logistic Regression
 2. Support Vector Machine
 3. kNN
+
+## Live Demo of the App
+
+The live demo of the app can be seen at this link -
+
+https://manansheel1991-cvd-ris-streamlit-app-cvd-risk-prediction-b1fj7t.streamlit.app/
