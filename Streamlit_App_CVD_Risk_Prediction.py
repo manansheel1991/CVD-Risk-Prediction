@@ -72,7 +72,7 @@ glucose = st.number_input('Enter glucose level')
 #     'prevalentHyp', 'diabetes', 'totChol', 'sysBP', 'diaBP', 'BMI', 'heartRate', 'glucose']
 
 st.write('Select the algorithm -')
-algo = st.selectbox('Algorithm', ('Logistic Regression', 'SVM', 'kNN'))
+algo = st.selectbox('Algorithm', ('Logistic Regression', 'SVM'))
 
 submit = st.button('Submit')
 
@@ -104,9 +104,6 @@ if submit:
             clf = pickle.load(f)
     elif algo == 'SVM':
         with open('cvd_svc_model.pkl', 'rb') as f:
-            clf = pickle.load(f)
-    elif algo == 'kNN':
-        with open('cvd_kn_model.pkl', 'rb') as f:
             clf = pickle.load(f)
 
     # test_df = np.asarray(test_df)
